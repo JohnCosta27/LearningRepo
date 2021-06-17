@@ -26,9 +26,6 @@ app.get('/', async (req, res) => {
 			.from('users')
 			.insert([{ user_id: req.oidc.user.sub }]);
 
-		console.log(data);
-		console.log(error);
-
 		res.redirect('/profile');
 	} else {
 		res.send('Login to access app');
