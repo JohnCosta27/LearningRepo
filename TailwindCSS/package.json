@@ -1,0 +1,16 @@
+{
+	"name": "tailwindcss",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build:css": "tailwind build -i src/style.css -o dist/style.css",
+		"build:production": "NODE_ENV=production npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css --minify"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"tailwindcss": "^2.2.7"
+	}
+}
