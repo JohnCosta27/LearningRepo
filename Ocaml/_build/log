@@ -1,0 +1,5 @@
+# dune init proj parser
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Workspace root: /home/johnc/Code/Learning/Ocaml
+# Auto-detected concurrency: 16
